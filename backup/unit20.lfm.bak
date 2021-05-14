@@ -1,0 +1,165 @@
+object Form20: TForm20
+  Left = 130
+  Height = 697
+  Top = 123
+  Width = 1054
+  Caption = 'Form20'
+  ClientHeight = 697
+  ClientWidth = 1054
+  Color = 12058623
+  LCLVersion = '1.4.4.0'
+  object RadioGroup1: TRadioGroup
+    Left = 0
+    Height = 96
+    Top = 72
+    Width = 696
+    AutoFill = True
+    Caption = '1. Выберите химическое явление:'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 76
+    ClientWidth = 692
+    Items.Strings = (
+      'а) покраснение плодов осенью; '
+      'б) растворение сахара в воде;'
+      'в) плавление свинца; '
+      'г) испарение сухого льда.'
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 712
+    Height = 185
+    Top = 444
+    Width = 296
+    Caption = 'ВВОД'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 0
+    Height = 97
+    Top = 208
+    Width = 1112
+    AutoFill = True
+    Caption = '2. Является веществом:'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 77
+    ClientWidth = 1108
+    Items.Strings = (
+      'а) капля воды; '
+      'б) медный провод;'
+      'в) кусочек сахара; '
+      'г) железо'
+    )
+    TabOrder = 2
+  end
+  object RadioGroup3: TRadioGroup
+    Left = 0
+    Height = 97
+    Top = 344
+    Width = 696
+    AutoFill = True
+    Caption = '3. Выберите формулу простого вещества:'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 77
+    ClientWidth = 692
+    Items.Strings = (
+      'а) К2О; '
+      'б) N2;'
+      'в) СuSO4; '
+      'г) Н2S.'
+    )
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 0
+    Height = 112
+    Top = 502
+    Width = 207
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 512
+    Height = 68
+    Top = 584
+    Width = 188
+    Caption = 'Периодическая таблица'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 448
+    Height = 35
+    Top = 8
+    Width = 125
+    Caption = 'ЗАДАЧИ'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Algerian'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button3: TButton
+    Left = 296
+    Height = 68
+    Top = 584
+    Width = 173
+    Caption = 'таблица растворимости'
+    OnClick = Button3Click
+    TabOrder = 6
+  end
+  object Memo1: TMemo
+    Left = 384
+    Height = 108
+    Top = 464
+    Width = 232
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Algerian'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnChange = Memo1Change
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Label1: TLabel
+    Left = 288
+    Height = 32
+    Top = 464
+    Width = 88
+    Caption = 'ОТВЕТ'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -29
+    Font.Name = 'Algerian'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
