@@ -1,0 +1,196 @@
+object Form17: TForm17
+  Left = 288
+  Height = 678
+  Top = 73
+  Width = 1014
+  Caption = 'Form17'
+  ClientHeight = 0
+  ClientWidth = 0
+  Color = 16756398
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 320
+    Height = 35
+    Top = 16
+    Width = 125
+    Caption = 'ЗАДАЧИ'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Algerian'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 87
+    Top = 56
+    Width = 581
+    Lines.Strings = (
+      'Задача № 1 :'
+      'На сколько изменяется внутренняя энергия Царь-пушки массой 40 т при максимальном '
+      'зарегистрированном в Москве перепаде температуры от + 36 °С до - 42,2 °С? Удельная теплоемкость '
+      'металла 0,45 кДж/(кг • К).'
+    )
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 16
+    Height = 87
+    Top = 160
+    Width = 581
+    Lines.Strings = (
+      'Задача № 2 :'
+      'До какой температуры раскаляется почва в Узбеки­стане, если внутренняя энергия каждого '
+      'кубометра изменя­ется при этом на 93,744 МДж? Начальная температура по­чвы 17 °С, плотность '
+      'грунта 1800 кг/м3, его удельная теп­лоемкость 0,84 кДж/(кг • К).'
+    )
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Memo3: TMemo
+    Left = 16
+    Height = 87
+    Top = 264
+    Width = 581
+    Lines.Strings = (
+      'Задача № 3 :'
+      'Самая высокая температура почвы в Туркмении до­стигает 77 °С. Какова начальная температура '
+      'куриного яйца-гиганта массой 420 г, зарегистрированного в 1977 г. в Киргизии, если оно получило '
+      'при засыпании горячим песком 40 кДж энергии? Удельная теплоемкость содержи­мого яйца 2 кДж/'
+      '(кг • К).'
+    )
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Memo4: TMemo
+    Left = 16
+    Height = 87
+    Top = 368
+    Width = 581
+    Lines.Strings = (
+      'Задача № 4 :'
+      ''
+      'В 1879 г. на Урале нашли монолит малахита мас­сой 1054 кг. На сколько изменилась его внутренняя '
+      'энер­гия, если при перевозке температура возросла на 20 °С?'
+    )
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Memo5: TMemo
+    Left = 16
+    Height = 87
+    Top = 472
+    Width = 581
+    Lines.Strings = (
+      'Задача № 5 :'
+      ''
+      'В Калининградском музее янтаря хранится уникаль­ная находка массой 2480 г. На сколько '
+      'изменилась внут­ренняя энергия этого куска при переносе его в музей, если температура воды в '
+      'Балтийском море 10 °С, а в музее 20 °С? Удельная теплоемкость янтаря 2 кДж/(кг • К).'
+    )
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object Edit1: TEdit
+    Left = 600
+    Height = 23
+    Top = 120
+    Width = 131
+    TabOrder = 5
+    Text = 'МДж'
+  end
+  object Edit2: TEdit
+    Left = 600
+    Height = 23
+    Top = 224
+    Width = 131
+    TabOrder = 6
+    Text = '°С'
+  end
+  object Edit3: TEdit
+    Left = 600
+    Height = 23
+    Top = 328
+    Width = 131
+    TabOrder = 7
+    Text = '°С'
+  end
+  object Edit4: TEdit
+    Left = 600
+    Height = 23
+    Top = 432
+    Width = 131
+    TabOrder = 8
+    Text = 'МДж'
+  end
+  object Edit5: TEdit
+    Left = 600
+    Height = 23
+    Top = 536
+    Width = 131
+    TabOrder = 9
+    Text = 'кДж'
+  end
+  object Button1: TButton
+    Left = 776
+    Height = 132
+    Top = 516
+    Width = 209
+    Caption = 'ВВОД'
+    OnClick = Button1Click
+    TabOrder = 10
+  end
+  object Label2: TLabel
+    Left = 240
+    Height = 33
+    Top = 584
+    Width = 102
+    Caption = 'ОТВЕТ'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -29
+    Font.Name = 'Bauhaus 93'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 816
+    Height = 118
+    Top = 233
+    Width = 164
+    Caption = 'Калькулятор'
+    OnClick = Button2Click
+    TabOrder = 11
+  end
+  object Label3: TLabel
+    Left = 472
+    Height = 25
+    Top = 24
+    Width = 466
+    Caption = 'Не забывайте заполнять единицы измерения!!!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Agency FB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 776
+    Height = 108
+    Top = 384
+    Width = 209
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 12
+  end
+end

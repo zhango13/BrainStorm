@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus\fpc\2.6.4\bin\x86_64-win64\fpc.exe" Date="1195665052"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiC:\Users\User\Desktop\ПРОЕКТ БРЕЙН СТОРМ ОФИСИАЛ\BrainStormZH\lib\x86_64-win64&quot; -FuF:\ZHANGO13\LESSONS -FuD:\lazarus\components\synedit\units\x86_64-win64\win32 -FuD:\lazarus\lcl\units\x86_64-win64\win32 -FuD:\lazarus\lcl\units\x86_64-win64 -FuD:\lazarus\components\lazutils\lib\x86_64-win64 -FuD:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\User\Desktop\ПРОЕКТ БРЕЙН СТОРМ ОФИСИАЛ\BrainStormZH\&quot; &quot;-FUC:\Users\User\Desktop\ПРОЕКТ БРЕЙН СТОРМ ОФИСИАЛ\BrainStormZH\lib\x86_64-win64\&quot; -dLCL -dLCLwin32 project1.lpr"/>
+</CONFIG>
